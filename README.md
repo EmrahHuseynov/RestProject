@@ -9,4 +9,5 @@
 ## Features
    * Rest service has an authorization system. You need a bearer token to send requests. In order to get the token you need to post the username and password (username=client password=123 grant_type=password) to "/token" endpoint in body with "application/x-www-form-urlencoded" content type.
    * All requests to the REST service and SOAP service are logged in database.
-   * Unit tests are included in project.
+   * Unit tests are included in project. 
+   * Singleton design pattern is used in the project.
